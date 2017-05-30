@@ -1,0 +1,23 @@
+<!-- Upload Dialog -->
+<div *ngIf="imgReceived == ''" class="message-wrapper">
+	<div *ngIf="processing != true" class="message-wrapper">
+		<br> Select your File:
+		<input type="file" accept="image/*" (change)="changeListener($event)">&nbsp;
+		<button  type="button" class="btn btn-default" (click)="onUpload()">Upload</button>
+	</div>
+	<div *ngIf="processing == true" class="message-wrapper">
+		<b>Processing </b> <img src="/assets/loading.gif">
+	</div>
+</div>
+<br>
+
+<!-- Result Dialog -->
+<div *ngIf="imgReceived != ''" class="message-wrapper">
+	Original Image: <br>
+	<img [src]="imgFile" class="imgUpload">  <br>
+	Scaled Image:<br>
+	<img [src]="imgReceived" class="imgUpload"> <br>
+	<button  type="button" class="btn btn-default" (click)="onReset()">Upload another Image</button>
+</div>
+
+
