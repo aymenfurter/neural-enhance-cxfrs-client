@@ -7,6 +7,9 @@ This project contains the source files for the client part.
 You can build it by using the ng build command.
 
 #### Version Matrix
+
 JS Framework: Angular 2 (www.angular.io)
+
 Build System: Angular CLI (cli.angular.io)
+
 CSS Framework: Skeleton V1.2 (www.getskeleton.com)
