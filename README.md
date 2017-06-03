@@ -10,6 +10,6 @@ You can build it by using the ng build command.
 
 JS Framework: Angular 2 (www.angular.io)
 
-Build System: Angular CLI (cli.angular.io)
+Build System: Angular CLI (http://cli.angular.io)
 
 CSS Framework: Skeleton V1.2 (www.getskeleton.com)
